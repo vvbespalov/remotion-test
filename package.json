@@ -1,0 +1,24 @@
+{
+  "name": "remotion-merge-poc",
+  "version": "1.0.0",
+  "description": "POC: merge two videos with a clock-wipe transition using Remotion + Node.js",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "studio": "remotion studio"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.468",
+    "@remotion/cli": "4.0.468",
+    "@remotion/media-parser": "4.0.468",
+    "@remotion/renderer": "4.0.468",
+    "@remotion/transitions": "4.0.468",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.468"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.7.2"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+out/
+.remotion/
+public/a.mp4
+public/b.mp4
+
+# Local editor / tooling
+.DS_Store
+.claude/
